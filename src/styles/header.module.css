@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+Display:wght@100;200;300&display=swap');
+
+
+.circle {
+    width: 973px;
+    height: 1017px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #DF82FF 0%, white 50% , transparent 70%);
+    position: absolute;
+    z-index: -100;
+    top: -205px;
+    left: 602px;
+}
+
+.centralize{
+    text-align: center;
+    position: relative;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.flex_container{
+    display: flex;
+    border: solid black 1px;
+    background: white;
+    height: 694px;
+}
+
+.center_margin{
+    margin: 0 auto;
+}
+
+.btn{
+    background: #242424;
+    border: #242424;
+    padding: 15px 58px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
+
+.info{
+    margin: auto 0;
+    text-align: left;
+    padding: 0 103px 0 72px;
+}
+
+.info > h1{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    font-size: 35px;
+}
+
+.info > p{
+    font-family: 'Inter', sans-serif;
+    color: #898989;
+    font-weight: 400;
+    margin: 13px 0;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    /* Adjust this value to fit your needs */
+    /*text-align: center;*/
+}
+
+.img{
+
+}
+
+.logo{
+    width: 200px;
+}
+
+@media screen and (max-width: 1250px) {
+    .logo{
+        width: 150px;
+        margin: 0;
+    }
+
+    .img{
+        width: 443px;
+        height: 500px;
+    }
+
+
+    .btn{
+        background: #242424;
+        border: #242424;
+        padding: 10px 38px;
+        color: white;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        margin: 10px 0 0 0;
+    }
+
+    .info{
+        padding: 148px 73px 151px 42px;
+    }
+
+    .info > h1{
+        font-family: 'Noto Serif Display', serif;
+        font-weight: 400;
+        color: black;
+        margin: 0;
+        font-size: 27px;
+    }
+
+    .info > p{
+        font-family: 'Inter', sans-serif;
+        color: #898989;
+        font-weight: 400;
+        margin: 13px 0;
+        font-size: 14px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        margin-bottom: 20px;
+    }
+
+    .flex_container{
+        display: flex;
+        border: solid black 1px;
+        background: white;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .logo{
+        width: 130px;
+        margin: 0;
+    }
+
+    .img{
+        width: 443px;
+        height: 500px;
+    }
+
+
+    .btn{
+        background: #242424;
+        border: #242424;
+        padding: 8px 33px;
+        color: white;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        margin: 10px 0 0 0;
+    }
+
+    .info{
+        padding: 128px 53px 131px 22px;
+    }
+
+    .info > h1{
+        font-family: 'Noto Serif Display', serif;
+        font-weight: 400;
+        color: black;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .info > p{
+        font-family: 'Inter', sans-serif;
+        color: #898989;
+        font-weight: 400;
+        margin: 13px 0;
+        font-size: 12px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        margin-bottom: 20px;
+    }
+
+    .flex_container{
+        display: flex;
+        border: solid black 1px;
+        background: white;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .info{
+        padding: 78px 53px 201px 22px;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+
+    .img{
+        width: 523px;
+        height: 580px;
+    }
+
+    .logo{
+        width: 150px;
+    }
+
+    .img_container{
+        display: block;
+    }
+
+    .info{
+        display: block;
+        padding: 20px 16px;
+
+    }
+
+    .flex_container{
+        display: block;
+        width: 523px;
+        height: auto;
+    }
+
+    .container{
+        height: 120vh;
+    }
+
+    .btn{
+        background: #242424;
+        border: #242424;
+        padding: 8px 33px;
+        color: white;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        margin: 10px 0 0 100px;
+    }
+
+    .info > h1{
+        font-family: 'Noto Serif Display', serif;
+        font-weight: 400;
+        color: black;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .info > p{
+        font-family: 'Inter', sans-serif;
+        color: #898989;
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+
+
+    .img{
+        width: 450px;
+        height: 511px;
+    }
+
+    .logo{
+        width: 150px;
+    }
+
+    .img_container{
+        display: block;
+    }
+
+    .info{
+        display: block;
+        padding: 20px 16px;
+
+    }
+
+    .flex_container{
+        display: block;
+        width: 450px;
+        height: auto;
+    }
+
+    .container{
+        height: 100vh;
+    }
+
+    .btn{
+        background: #242424;
+        border: #242424;
+        padding: 8px 33px;
+        color: white;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        margin: 10px 0 0 100px;
+    }
+
+    .info > h1{
+        font-family: 'Noto Serif Display', serif;
+        font-weight: 400;
+        color: black;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .info > p{
+        font-family: 'Inter', sans-serif;
+        color: #898989;
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+
+
+    .img{
+        width: 346px;
+        height: 392px;
+    }
+
+    .logo{
+        width: 137px;
+    }
+
+    .img_container{
+        display: block;
+    }
+
+    .info{
+        display: block;
+        padding: 20px 16px;
+
+    }
+
+    .flex_container{
+        display: block;
+        width: 350px;
+        height: auto;
+    }
+
+    .container{
+        height: 90vh;
+    }
+
+    .btn{
+        background: #242424;
+        border: #242424;
+        padding: 8px 33px;
+        color: white;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        margin: 10px 0 0 100px;
+    }
+
+    .info > h1{
+        font-family: 'Noto Serif Display', serif;
+        font-weight: 400;
+        color: black;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .info > p{
+        font-family: 'Inter', sans-serif;
+        color: #898989;
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 10px;
+    }
+
+}
+
+
